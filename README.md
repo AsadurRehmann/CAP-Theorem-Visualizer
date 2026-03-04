@@ -1,8 +1,8 @@
-# CAP Theorem Explorer
+# CAP Theorem Visualizer
 
 **An interactive visual tool for understanding distributed systems tradeoffs**
 
-CAP Theorem Explorer is a browser-based educational application that lets you toggle Consistency, Availability, and Partition Tolerance in real time and observe how each combination affects a distributed database cluster. It is designed for engineers learning distributed systems fundamentals, students preparing for system design interviews, and anyone who wants to understand why choosing a database is never a simple decision.
+CAP Theorem Visualizer is a browser-based educational application that lets you toggle Consistency, Availability, and Partition Tolerance in real time and observe how each combination affects a distributed database cluster. It is designed for engineers learning distributed systems fundamentals, students preparing for system design interviews, and anyone who wants to understand why choosing a database is never a simple decision.
 
 ---
 
@@ -22,7 +22,7 @@ The fundamental tension arises during a network partition: if two groups of node
 
 ## What the Application Does
 
-The explorer gives you three toggle controls — one for each CAP property. Selecting any two updates the entire interface in real time:
+The Visualizer gives you three toggle controls — one for each CAP property. Selecting any two updates the entire interface in real time:
 
 - An animated node diagram shows five distributed database nodes reacting to your selection. Nodes go offline, data versions diverge, and network partitions appear visually as the cluster responds to your configuration.
 - A tradeoff panel explains in plain language what you gain and what you sacrifice with the active combination.
@@ -76,8 +76,8 @@ The explorer gives you three toggle controls — one for each CAP property. Sele
 ### Installation
 
 ```bash
-git clone https://github.com/your-username/cap-theorem-explorer.git
-cd cap-theorem-explorer
+git clone https://github.com/your-username/cap-theorem-Visualizer.git
+cd cap-theorem-Visualizer
 npm install
 npm run dev
 ```
@@ -96,7 +96,7 @@ Output is written to the `dist` directory.
 
 ## Deployment
 
-CAP Theorem Explorer is configured for zero-configuration deployment on Vercel.
+CAP Theorem Visualizer is configured for zero-configuration deployment on Vercel.
 
 ```
 Build Command:    npm run build
@@ -113,7 +113,7 @@ Every push to the `main` branch triggers an automatic redeploy. No environment v
 ## Project Structure
 
 ```
-cap-theorem-explorer/
+cap-theorem-Visualizer/
   src/
     components/
       ToggleCard.jsx        # Individual C, A, P toggle with glow state
