@@ -1,5 +1,7 @@
 # CAP Theorem Visualizer
 
+live link: https://cap-theorem-visualizer.vercel.app/
+
 **An interactive visual tool for understanding distributed systems tradeoffs**
 
 CAP Theorem Visualizer is a browser-based educational application that lets you toggle Consistency, Availability, and Partition Tolerance in real time and observe how each combination affects a distributed database cluster. It is designed for engineers learning distributed systems fundamentals, students preparing for system design interviews, and anyone who wants to understand why choosing a database is never a simple decision.
